@@ -8,28 +8,21 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="assets/style.css">
     
-    <style>
-
-      div {
-        background-color: lightblue;
-        padding: 4px;
-      }
-
-    </style>
+    <title>Prework Study Guide</title>
 
   </head>
 
   <body>
 
     <header id="top">
-
+      
       <h1>Prework Study Guide</h1>
 
       <img 
-        src="./assets/bowtie-cat.png" 
-        alt="Profile image of cat wearing a bow tie." 
+      src="./assets/bowtie-cat.png" 
+      alt="Profile image of cat wearing a bow tie." 
       />
 
     </header>
@@ -37,12 +30,23 @@
     <main>
 
       <section class="card" id="html-section">
-        <div></div>
-        <h2>HTML</h2>
-        <div></div>
-          <p><u><strong>Hypertext Markup Language (HTML)</strong></u> is made up of different elements (wrapped in angled brackets, &lt;" "&gt; &lt;/" "&gt;) that create the content and basic framework for all webpages by combining.</p>
 
-        <p>An <u>element</u> is the type of content on a webpage. Common examples of elements include:
+        <h2>HTML</h2>
+
+          <br>
+
+          <p>
+            <u><strong>Hypertext Markup Language (HTML)</strong></u> is made up
+             of different elements (wrapped in angled brackets, &lt;" "&gt;
+             &lt;/" "&gt;) that create the content and basic framework for 
+             all webpages.
+          </p>
+
+          <br><br>
+
+        <p>
+          An <u>element</u> is the type of content on a webpage. Common examples 
+          of elements include:
           <ul>
             <li>Text elements</li>
             <li>Image elements</li>
@@ -51,7 +55,11 @@
           </ul>
         </p>
 
-        <p>Elements are also used to divide and describe content on a page. examples of such elements include:
+        <br>
+
+        <p>
+          Elements are also used to divide and describe content on a page. 
+          Examples of such elements include:
           <ul>
             <li>Meta-related elements</li>
             <li>Content division elements</li>
@@ -59,72 +67,253 @@
           </ul>
         </p>
 
-        <p>The two most important elements for the structure of the webpage are the "head" and "body" elements.
+        <br>
+
+        <p>
+          The two most important elements for the structure of the webpage are 
+          the "head" and "body" elements.
+
+        <br>
+
           <ul>
-            <li>The <strong>head</strong> element contains information, or <strong>metadata</strong> (unseen data about webpages that the browser uses to serve the webpage to users) about the webpage that is not visible to the user.</li>
-            <li>The <strong>body</strong> element contains the content that is visible to the user. All the content that we want the user to see and interact with are put inside this element.</li>
+            <li>The <strong>head</strong> element contains information, 
+              or <strong>metadata</strong> (unseen data about webpages that 
+              the browser uses to serve the webpage to users) about the webpage 
+              that is not visible to the user.</li>
+            <li>The <strong>body</strong> element contains the content that 
+              is visible to the user. All the content that we want the user to 
+              see and interact with are put inside this element.</li>
           </ul>
         </p>
+
+        <br>
+
         <div>
-          <p><strong>NOTE:</strong> these two elements are examples of <strong>semantic HTML elements</strong>, or the elements that describes its conent and the role it plays on the page. It's important to use semantic elements whenever possible, because they make your HTML easier to read for other developers and the browser.</p>
+          <p class="notes">
+            <strong>NOTE:</strong> these two elements are examples 
+            of <strong>semantic HTML elements</strong>, or elements that 
+            describe their content and the role they play on the page. 
+            It's important to use semantic elements whenever possible, because 
+            they make your HTML easier to read for other developers and the 
+            browser.
+          </p>
         </div>
 
 
         <h3>The "head" element</h3>
 
-        <p>The head element may contain the following elements:
+        <p>
+          The head element may contain the following elements:
           <ul>
-            <li>The <strong>'charset'</strong> element sets the character encoding.</li>
-            <li>the <strong>'http-equiv'</strong> element sets an HTTP header for conent.</li>
-            <li>The <strong>'viewport'</strong> element sets the default view for our webpage.</li>
-            <li>The <strong>'title'</strong> element defines the title of the webpage and is the only visible element in the head element.</li>
+            <li>The <strong>'charset'</strong> element sets the character 
+              encoding.
+            </li>
+            <li>the <strong>'http-equiv'</strong> element sets an HTTP header 
+              for conent.
+            </li>
+            <li>The <strong>'viewport'</strong> element sets the default view 
+              for our webpage.
+            </li>
+            <li>The <strong>'title'</strong> element defines the title of 
+              the webpage and is the only visible element in the head element.
+            </li>
           </ul>
         </p>
 
         <h3>The "body" element</h3>
-        <p>The body element may contain other semantic elements including the following:
+        <p>
+          The body element may contain other semantic elements including 
+          the following:
           <ul>
-            <li>The <strong>'header'</strong> element appears at the top of the page and usually contains a navigation menu, a title heading, and/or other introductory content.</li>
-            <li><strong>'heading'</strong> elements (e.g., h1, h2, h3, etc).</li>
-            <li><strong>'section'</strong> elements that divide the contents of the webpage into easier to read segments.</li>
-            <li><strong>'paragraph'</strong> elements (p) that contain text.</li>
-            <li><strong>'ul', 'ol',</strong> and <strong>'li'</strong> elements represent unordered lists, ordered lists, and list items respectively.</li>
-            <li>A <strong>'br'</strong> element creates a line break between blocks of content.</li>
-            <li>The <strong>'a'</strong> element (stands for anchor) creates links to the same webpage or other webpages you provide the URL for using the <strong>'href'</strong> attribute</li>
-            <li>The <strong>link</strong> element specifies relationships between the current document and an external resource.  The <strong>'src'</strong> attribute defines the location of the file.  The <strong>'alt'</strong> attribute contains a text string that describes the appearance and functionality of the image.  This is important for improving Search Engine Optimization (<strong>SEO</strong>), screen readers, and other assistive technologies.</li>
-            <li>The <strong>'footer'</strong> is last and appears at the bottom of the page.  Usually, the footer element contains the author, copyright, contact, sitemap, and navigation of the webpage.</li>
+            <li>The <strong>'header'</strong> element appears at the top of the 
+              page and usually contains a navigation menu, a title heading, 
+              and/or other introductory content.
+            </li>
+            <li><strong>'heading'</strong> elements (e.g., h1, h2, h3, etc).
+            </li>
+            <li><strong>'section'</strong> elements that divide the contents of 
+              the webpage into easier to read segments.
+            </li>
+            <li><strong>'paragraph'</strong> elements (p) that contain text.
+            </li>
+            <li><strong>'ul', 'ol',</strong> and <strong>'li'</strong> 
+              elements represent unordered lists, ordered lists, and list 
+              items respectively.
+            </li>
+            <li>A <strong>'br'</strong> element creates a line break between 
+              blocks of content.
+            </li>
+            <li>The <strong>'a'</strong> element (stands for anchor) creates 
+              links to the same webpage or other webpages you provide the URL 
+              for using the <strong>'href'</strong> attribute
+            </li>
+            <li>The <strong>link</strong> element specifies relationships 
+              between the current document and an external resource.  
+              The <strong>'src'</strong> attribute defines the location of 
+              the file.  The <strong>'alt'</strong> attribute contains a text 
+              string that describes the appearance and functionality of the 
+              image.  This is important for improving Search Engine 
+              Optimization (<strong>SEO</strong>), screen readers, and 
+              other assistive technologies.
+            </li>
+            <li>The <strong>'footer'</strong> is last and appears at the bottom 
+              of the page.  Usually, the footer element contains the 
+              author, copyright, contact, sitemap, and navigation of the 
+              webpage.
+            </li>
           </ul>
         </p>
 
-        <p><span style="
-          background-color: rgb(225, 78, 108);
-        ">An important takeaway from this section is that we can use semantic HTML elements to indicate the role of their content, as well as to give structure to the content of the webpage.</span></p>
+        <br><br>
+
+        <p>
+          <span>An important takeaway from this section is that we can use 
+          semantic HTML elements to indicate the role of their content, as well 
+          as to give structure to the content of the webpage.</span>
+        </p>
+
+        <br><br>
 
         <div>
-          <p><strong>NOTE:</strong> an attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them. Another example of important attributes are the "class" and "id" attributes.  They help to name elements so they can later be targeted and used with CSS and JavaScript.</p>
+          <p class="notes">
+            <strong>NOTE:</strong> an attribute either modifies 
+            the default functionality of an element type or provides 
+            functionality to certain element types unable to function 
+            correctly without them. Another example of important attributes are 
+            the "class" and "id" attributes.  They help to name elements so they 
+            can later be targeted and used with CSS and JavaScript.
+          </p>
         </div>
+
       </section>
 
       <br>
    
       <section class="card" id="css-section">
 
-        <div></div>
         <h2>CSS</h2>
-        <div></div>
 
-        <ul>
-          <li>Enter your CSS notes here</li>
-        </ul>
+          <br>
+
+          <p>
+            <u><strong>Cascading StyleSheets (CSS)</strong></u> is a 
+            programming language that determines how webpage content is presented 
+            to users by defining colors, aesthetics, visual layouts, 
+            and organization to specific elements of an HTML page. 
+          </p>
+
+          <br>
+
+          <p>
+            There are three ways to style a webpage using CSS:</p>
+          <ul>
+            <li><u>Inline CSS</u> - used when the developer wants to style 
+              an element directly in the HTML file. They're useful for quick 
+              and permanent changes but are less flexible than external and 
+              internal style sheets, because each style must be edited 
+              individually whenever you make a design change. </li>
+            <li><u>Internal CSS</u> - embeds an entire stylesheet directly in 
+              the HTML file using a "style" element in the "head" element.</li>
+            <li><u>External CSS (most common)</u> - Preferred in most cases 
+              because it allows developers to keep their CSS rules in a 
+              seperate file, making design changes easier. When using an 
+              external style sheet, we link the file using a "link" element 
+              placed in the HTML's head section. Use &lt;link rel=”” href=””&gt; 
+              to link a css file to your html file (rel attribute specifies 
+              the relationship between the current and linked documents and 
+              href specifies the location of the exernal resource.)</li>
+          </ul>
+
+          <br><br>
+
+          <div>
+            <p class="notes">
+              <strong>NOTE:</strong> <u>Separation of concerns</u> 
+              (a widely used term in web development) refers to separating code 
+              into different files based on use and the idea that each section 
+              of code should have its own responsibility.
+            </p>
+          </div>
+
+          <br><br>
+
+          <p>
+            Selectors are used to define the element or attributes to which the 
+            CSS rules, or declarations, will apply. We use the "class" attribute 
+            as a selector to target certain elements on the page we'd like to 
+            apply our CSS rules to. This helps us to prevent from repeating lines 
+            of code for elements we want to style the same. 
+
+          <br><br> 
+
+          You can target more than one selector by seperating them with a comma 
+          in CSS (e.g., .container, .text {};). 
+          </p>
+
+          <br>
+
+          <p>
+            <strong>Declarations</strong> contain two important components:
+          </p>
+          <ul>
+            <li>The CSS property we want to apply</li>
+            <li>The value of the property</li>
+          </ul>
+
+          <br>
+
+          <div>
+            <p class="notes">
+              <strong>EXAMPLE:</strong> the declaration {color: blue;} includes 
+              the property "color" and the value of the property, "blue"
+            </p>
+          </div>
+
+          <br>
+
+          <p>
+            <span>It's Important to note that every HTML element is essentially 
+              a box. Each box consists of content that is contained by 
+              padding, borders, and margin.  This is more commonly referred to 
+              as the CSS box model and is extremely important to understand 
+              while learning this language.</span>
+          </p>
+
+          <br>
+
+          <p>
+            There are several properties we can assign to HTML elements to 
+            style them, including, but not limited to:
+          </p>
+          <ul>
+            <li><u>Padding</u> - adds space around the content <strong>inside</strong> an element.  Increasing the padding makes the entire element bigger!</li>
+            <li><u>Border</u> - determines the size, style, and color of a line drawn around the element it's applied to. </li>
+            <li><u>Margin</u> - adds space around the <strong>outside</strong> of an element.</li>
+            <li><u>Width and Height</u> - defines the value of the width and the height of an element.  NOTE: these are seperate properties.</li>
+            <li><u>Box-shadow</u> - adds shadow effects around an element's frame.  This allows you to describe the X and Y offsets relative to the element, the blur and spread radius, and the color of the shadow.</li>
+            <li><u>Background-color</u> - defines the color of the background of an element.</li>
+            <li><u>Color</u> - defines the text color of an element.</li>
+            <li><u>Text-align</u> - allows you to define the alignment of the paragraphs in your webpage.</li>
+            <li><strong>and many more!</strong></li>
+          </ul>
+
+          <br><br>
+
+            <p>
+              <span>all CSS properties and descriptions of them are easily 
+                found online using Google!</span>
+            </p>
+
+          <br>
+
+     
       </section>
 
       <br>
    
       <section class="card" id="git-section">
 
-        <div></div>
         <h2>Git</h2>
-        <div></div>
 
         <ul>
           <li>git status: checks what branch we are currently on</li>
@@ -136,9 +325,7 @@
    
       <section class="card" id="javascript-section">
 
-        <div></div>
         <h2>JavaScript</h2>
-        <div></div>
 
         <ul>
           <li>Enter your JavaScript notes here</li>
