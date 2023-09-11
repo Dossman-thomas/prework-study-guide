@@ -14,10 +14,19 @@ div {
   border-radius: 20px;
 }
 
+.git-commands,
+.commands {
+  width: 60%;
+  background-color: rgb(217, 217, 217);
+  padding: 16px;
+  border-radius: 20px;
+  margin: 7px 
+}
+
 p {
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 13px;
+  font-size: 21px;
+  /* margin-bottom: 13px; */
 }
 
 section {
@@ -25,9 +34,10 @@ section {
 }
 
 header {
-  padding: 20px;
+  padding: 40px 20px;
+  display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 
 header,
@@ -59,7 +69,7 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .notes {
@@ -76,15 +86,20 @@ img {
   border-radius: 50%;
 }
 
-ul {
+ul,
+ol {
   padding-left: 40px;
-  font-size: 18px;
+  font-size: 17px;
+  }
+
+li {
+  margin-bottom: 18px;
 }
 
 .card {
   background-color: white;
   width: 80%;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 0px 20px 20px 20px;
   border: 5px solid rgb(0, 70, 167);
   border-radius: 20px;
@@ -94,6 +109,6 @@ ul {
 span {
   background-color: rgb(225, 78, 108);
   color: white;
-  font-size: 27px;
+  font-size: 24px;
   padding: 3px;
 }

@@ -26,7 +26,7 @@
       />
 
       <p>
-        ✨ Open the Console to See What's Happening ✨
+        🫡 Open the Console to See What's Happening 🫡
       </p>
 
     </header>
@@ -49,8 +49,11 @@
           <br><br>
 
         <p>
-          An <u>element</u> is the type of content on a webpage. Common examples 
+          An <u>&lt;element&gt;</u> is the type of content on a webpage. Common examples 
           of elements include:
+
+          <br><br>
+
           <ul>
             <li>Text elements</li>
             <li>Image elements</li>
@@ -64,6 +67,9 @@
         <p>
           Elements are also used to divide and describe content on a page. 
           Examples of such elements include:
+
+          <br><br>
+
           <ul>
             <li>Meta-related elements</li>
             <li>Content division elements</li>
@@ -75,16 +81,16 @@
 
         <p>
           The two most important elements for the structure of the webpage are 
-          the "head" and "body" elements.
+          the &lt;head&gt; and &lt;body&gt; elements.
 
-        <br>
+        <br><br>
 
           <ul>
-            <li>The <strong>head</strong> element contains information, 
+            <li>The <strong>&lt;head&gt;</strong> element contains information, 
               or <strong>metadata</strong> (unseen data about webpages that 
               the browser uses to serve the webpage to users) about the webpage 
               that is not visible to the user.</li>
-            <li>The <strong>body</strong> element contains the content that 
+            <li>The <strong>&lt;body&gt;</strong> element contains the content that 
               is visible to the user. All the content that we want the user to 
               see and interact with are put inside this element.</li>
           </ul>
@@ -104,16 +110,17 @@
         </div>
 
 
-        <h3>The "head" element</h3>
+        <h3>The &lt;head&gt; element</h3>
 
         <p>
-          The head element may contain the following elements:
+          The &lt;head&gt; element may contain the following elements:
+          <br><br>
           <ul>
             <li>The <strong>'charset'</strong> element sets the character 
               encoding.
             </li>
             <li>the <strong>'http-equiv'</strong> element sets an HTTP header 
-              for conent.
+              for content.
             </li>
             <li>The <strong>'viewport'</strong> element sets the default view 
               for our webpage.
@@ -123,35 +130,37 @@
             </li>
           </ul>
         </p>
+        <br>
 
-        <h3>The "body" element</h3>
+        <h3>The &lt;body&gt; element</h3>
         <p>
-          The body element may contain other semantic elements including 
+          The &lt;body&gt; element may contain other semantic elements including 
           the following:
+          <br><br>
           <ul>
-            <li>The <strong>'header'</strong> element appears at the top of the 
+            <li>The <strong>&lt;header&gt;</strong> element appears at the top of the 
               page and usually contains a navigation menu, a title heading, 
               and/or other introductory content.
             </li>
-            <li><strong>'heading'</strong> elements (e.g., h1, h2, h3, etc).
+            <li><strong>'heading'</strong> elements (e.g., &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc).
             </li>
-            <li><strong>'section'</strong> elements that divide the contents of 
+            <li><strong>&lt;section&gt;</strong> elements that divide the contents of 
               the webpage into easier to read segments.
             </li>
-            <li><strong>'paragraph'</strong> elements (p) that contain text.
+            <li><strong>'paragraph'</strong> elements (&lt;p&gt;) that contain text.
             </li>
-            <li><strong>'ul', 'ol',</strong> and <strong>'li'</strong> 
+            <li><strong>&lt;ul&gt;, &lt;ol&gt;,</strong> and <strong>&lt;li&gt;</strong> 
               elements represent unordered lists, ordered lists, and list 
               items respectively.
             </li>
-            <li>A <strong>'br'</strong> element creates a line break between 
+            <li>A <strong>&lt;br&gt;</strong> element creates a line break between 
               blocks of content.
             </li>
-            <li>The <strong>'a'</strong> element (stands for anchor) creates 
+            <li>The <strong>&lt;a&gt;</strong> element (stands for anchor) creates 
               links to the same webpage or other webpages you provide the URL 
               for using the <strong>'href'</strong> attribute
             </li>
-            <li>The <strong>link</strong> element specifies relationships 
+            <li>The <strong>&lt;link&gt;</strong> element specifies relationships 
               between the current document and an external resource.  
               The <strong>'src'</strong> attribute defines the location of 
               the file.  The <strong>'alt'</strong> attribute contains a text 
@@ -160,13 +169,13 @@
               Optimization (<strong>SEO</strong>), screen readers, and 
               other assistive technologies.
             </li>
-            <li>The <strong>'footer'</strong> is last and appears at the bottom 
+            <li>The <strong>&lt;footer&gt;</strong> is last and appears at the bottom 
               of the page.  Usually, the footer element contains the 
               author, copyright, contact, sitemap, and navigation of the 
               webpage.
             </li>
           </ul>
-        </p>
+        </p> 
 
         <br><br>
 
@@ -178,15 +187,6 @@
 
         <br><br>
 
-        <div>
-          <p class="notes">
-            <strong>NOTE:</strong> an attribute either modifies 
-            the default functionality of an element type or provides 
-            functionality to certain element types unable to function 
-            correctly without them. Another example of important attributes are 
-            the "class" and "id" attributes.  They help to name elements so they 
-            can later be targeted and used with CSS and JavaScript.
-          </p>
         </div>
 
       </section>
@@ -198,7 +198,6 @@
         <h2>CSS</h2>
 
           <br>
-
           <p>
             <u><strong>Cascading StyleSheets (CSS)</strong></u> is a 
             programming language that determines how webpage content is presented 
@@ -209,26 +208,30 @@
           <br>
 
           <p>
-            There are three ways to style a webpage using CSS:</p>
-          <ul>
+            There are three ways to style a webpage using CSS:
+          </p>
+
+          <br>
+
+          <ol>
             <li><u>Inline CSS</u> - used when the developer wants to style 
               an element directly in the HTML file. They're useful for quick 
               and permanent changes but are less flexible than external and 
               internal style sheets, because each style must be edited 
               individually whenever you make a design change. </li>
             <li><u>Internal CSS</u> - embeds an entire stylesheet directly in 
-              the HTML file using a "style" element in the "head" element.</li>
+              the HTML file using a &lt;style&gt; element in the &lt;head&gt; element.</li>
             <li><u>External CSS (most common)</u> - Preferred in most cases 
               because it allows developers to keep their CSS rules in a 
               seperate file, making design changes easier. When using an 
-              external style sheet, we link the file using a "link" element 
+              external style sheet, we link the file using a &lt;link&gt; element 
               placed in the HTML's head section. Use &lt;link rel=”” href=””&gt; 
               to link a css file to your html file (rel attribute specifies 
               the relationship between the current and linked documents and 
-              href specifies the location of the exernal resource.)</li>
-          </ul>
+              href specifies the location of the external resource.)</li>
+          </ol>
 
-          <br><br>
+          <br>
 
           <div>
             <p class="notes">
@@ -240,29 +243,38 @@
           </div>
 
           <br><br>
-
-          <p>
-            Selectors are used to define the element or attributes to which the 
-            CSS rules, or declarations, will apply. We use the "class" attribute 
-            as a selector to target certain elements on the page we'd like to 
-            apply our CSS rules to. This helps us to prevent from repeating lines 
-            of code for elements we want to style the same. 
+        <ul>
+          <li>
+            <strong><u>Selectors</u></strong> - Are used to define the element or attributes to which the CSS rules, or declarations, will apply. We use the "class" attribute as a selector to target certain elements on the page we'd like to apply our CSS rules to. This helps us to prevent from repeating lines of code for elements we want to style the same. 
 
           <br><br> 
 
           You can target more than one selector by seperating them with a comma 
-          in CSS (e.g., .container, .text {};). 
-          </p>
+          in CSS:
+          <br><br>
 
-          <br>
-
-          <p>
+            <div class="commands">
+              .container,
+              <br>
+              .text,
+              <br>
+              .button {
+              <br><br>
+              //block of code;
+              <br><br>
+              }
+            </div>
+        
+          </li>
+          <li>
             <strong>Declarations</strong> contain two important components:
-          </p>
-          <ul>
-            <li>The CSS property we want to apply</li>
-            <li>The value of the property</li>
-          </ul>
+            <br><br>
+              <ol>
+                <li>The CSS property we want to apply</li>
+                <li>The value of the property</li>
+              </ol>
+          </li>
+        </ul>
 
           <br>
 
@@ -289,6 +301,7 @@
             There are several properties we can assign to HTML elements to 
             style them, including, but not limited to:
           </p>
+          <br>
           <ul>
             <li><u>Padding</u> - adds space around the content <strong>inside</strong> an element.  Increasing the padding makes the entire element bigger!</li>
             <li><u>Border</u> - determines the size, style, and color of a line drawn around the element it's applied to. </li>
@@ -320,9 +333,158 @@
         <h2>Git</h2>
 
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        </ul>
+          <li>
+            <u><strong>Git (Global Information Tracker)</strong></u> - A version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. 
+          </li>
+          <li>
+            <u><strong>GitHub</strong></u> - A platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code. GitHub is also accessible via a downloadable desktop version.
+          </li>
+          <li>
+            <u><strong>Git Bash</strong></u> - A source control management system for Windows that allows users to type Git commands that make source code management easier through versioning and commit history.
+          </li>
+          <li>
+            <u><strong>Github Flow</strong></u> - The branch-based workflow by GitHub, made to help streamline the process of developing source code within a team. To follow GitHub flow, you need a GitHub account and a repository (a platform to contain all of your project's files and revision history.)
+          </li>
+      </ul>
+
+        <br>
+
+        <div>
+          <p class="notes">
+            <strong>NOTE:</strong> You can complete all steps of GitHub flow through the GitHub web interface, the command line/Git Bash, or GitHub Desktop.
+          </p>
+        </div>
+
+        <br><br>
+
+        <h3>
+          The GitHub Flow: 
+        <h3>
+
+        <br>
+
+        <ol>
+          <li>
+            <u>Create a Branch</u> 
+            Create a branch in your repository. A short, descriptive branch name enables your collaborators to see ongoing work at a glance.
+
+            <br><br>
+
+            <div class="commands">
+              git checkout -b &lt;new branch name&gt;
+            </div>
+
+            <br>
+          
+            <ul>
+              <li>the "git" command must precede each Git statement.</li>
+            
+              <li>the "checkout" command is to move the working branch to a new branch.</li>
+              <li>It is good practice to name the branches for the feature that will be developed by them to help indicate the purpose of each branch.</li>
+            </ul>
+          </li>
+
+          <li>
+            <u>Make Changes</u> On your branch, make any desired changes to the repository. Your branch is a safe place to make changes. If you make a mistake, you can revert your changes or push additional changes to fix the mistake.
+          </li>
+
+          <li>
+            <u>Commit and Push</u> Give each commit a descriptive message to help you and future contributors understand what changes it contains. Ideally, each commit contains a complete change. 
+            <br><br>
+            By committing and pushing changes, your work is backed up to remote storage allowing you to access your work from any device! It also allows your collaborators to view your work, respond to questions, and make contributions.
+          
+            <br><br>
+            <ul>
+              <li>
+                add changed files in your working directory to the staging area of Git:
+              </li>
+
+              <div class="commands">
+                git add -A
+              </div>
+
+              <br>
+
+              <li>
+                Now that all of our changes have been staged, we can commit to our repository and add a simple message associated with the commit:
+              </li> 
+             
+             <div class="commands">
+               git commit -m 'add message here'
+             </div>
+            
+            <br>
+
+            <li>
+              Next, let's make sure our current branch is up to date before opening a pull request. It is good habit to pull the base branch into your feature branch before pushing up any code:
+            </li>
+
+            <div class="commands">
+              git pull origin main
+            </div>
+            
+            <br>
+
+            <li>
+              Push up all of your changes using the following command:
+            </li>
+
+            <div class="commands">
+              git push origin "branch name"
+            </div>
+            
+            <br>
+          
+          </ul>
+
+          <li>
+            <u>Create a Pull Request</u> - Ask for feedback on your changes. In addition to filling out the body of the pull request, you can add comments to specific lines of the pull request to explicitly point something out to reviewers.  
+          </li>
+          <li>
+            <u>Address Review Comments</u> - Reviewers can comment on the whole pull request or add comments to specific lines or files. You can continue to commit and push changes in response to the reviews and you pull request will update automatically.
+          </li>
+          <li>
+            <u>Merge Your Pull Request</u> - Once your pull request is approved, you may merge your pull request. This will automatically merge your branch to the default/master/main branch. GitHub will retain the history of comments and commits in the pull request to help future collaborators understand your changes.
+          </li>
+          <li>
+            <u>Delete Your Branch</u> - After merging your pull request, delete the branch. This indicates that branch's work is complete and prevents anyone from accidentally working on old branches.
+          </li>
+        </ol>
+
+        
+        <div class="notes">
+          <p>
+            <strong>OTHER USEFUL GIT COMMANDS:</strong> 
+
+            <br><br>
+            
+              <strong><u>pwd</u></strong> - (print working directory) - shows the directory you're currently working on.
+
+            <br><br>
+
+              <strong><u>ls</u></strong> - lists files and folders in the working directory.
+
+            <br><br>
+
+              <strong><u>cd</u></strong> - change directory to your chosing.
+
+            <br><br>
+
+              <strong><u>cd ..</u></strong> - revert to the last directory you were in.
+
+            <br><br>
+
+              <strong><u>checkout "branch name"</u></strong> - switches to that specified branch.
+
+            <br><br>
+
+
+              <strong><u>log</u></strong> - shows the commit history for the currently active branch.
+              
+            </ul>
+          </p>
+        </div>
+
       </section>
 
       <br>
@@ -331,18 +493,286 @@
 
         <h2>JavaScript</h2>
 
+        <p>
+          <strong><u>Javascript (js)</u></strong> - an object-oriented programming (OOP) language that allows users interactivity with websites and applications.
+          
+          <br><br>
+
+          In web development, JavaScript is the tool that takes static HTML/CSS webpages and makes them interactive. Every time you do something with a webpage, such as click a button, retrieve data, or fill out a form, JavaScript is working!
+        </p>
+
+        <br>
+
+        <div class="notes">
+          <p>
+            <strong>NOTE:</strong> with experience, JavaScipt creates games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more! 
+          </p>
+        </div>
+
+        <br>
         <ul>
-          <li>Enter your JavaScript notes here</li>
-        </ul>
+          <li>Much like CSS files, you can organize Javascript files seperate from the HTML.  Use the src=" " attribute in your script element to link js files.
+
+            <div class="commands">
+              &lt;script src="assets/script.js"&gt;&lt;/script&gt;
+            </div>
+          </li>
+
         
+          <li>
+            <strong><u>Control Flow</u></strong> - The order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page. 
+          </li>
+        </ul>
+
+        <br>
+        
+        <p>
+          <span><strong>ORDER COUNTS!</strong></span>
+        </p>
+
+        <br>
+
+            
+        <h3>Assigning a Variable</h3>
+
+        <ul>
+          <li><strong><u>Variables</u></strong> - Assignable containers that store different data types. To assign a variable, begin by typing 'let' if the variable will change,'const' if it will stay the same, or 'var', followed by a name of your chosing.  When naming variables, it's important to note that Javascript is case-sensitive! This means the names 'myVariable' and 'myvariable' are not the same.
+          <br><br>
+          After declaring a variable, give it a value by equating (=) it to a data type.
+          for example:
+          <br><br>
+        
+            <div class="commands">            
+            let myVariable = 5;
+          </div>
+              
+          </li>
+        </ul>
+      
+        <div class="notes">
+          <p>
+            <strong>NOTE:</strong> it's common practice to use camel case when naming in JavaScipt. 
+            <br><br>
+            To give a couple examples - instead of 'myvariable' and 'mysecondvariable', use 'myVariable' and 'mySecondVariable' as your variable names.    
+          </p>
+        </div>
+
+        <br>
+
+        <h3>Features and Data Types</h3>
+
+        <ol>
+
+          <li>
+
+            <u>String</u> - a sequence of characters and the most commonly used data type to store text.  Signified by '&lt;string of text&gt;' or "&lt;string of text&gt;"
+
+          </li>
+
+          <li>
+            
+            <u>Number</u> - Numbers don't need ' ' or " " marks. Typing numbers directly into code works.
+          
+          </li> 
+
+          <li>
+            
+            <u>Boolean</u> - Used to store the values true and false in a database.  They're most commonly used in databased to represent yes/no, on/off, or other related states. Boolean values have one of two possible values - Truthy (true) and Falsy (false) values.
+          
+          </li>
+
+          <li>
+            <u>Undefined</u> - A variable has been declared but has not yet been assigned a value. 
+          </li>
+
+          <li>
+            <u>Null</u> - Represents the intentional absence of any object value. The number variable is then empty at the moment but may change value later.
+          </li>
+
+          <li>
+            <u>Object</u> - This can be anything. Everything in JavaScript is an object and can be stored in a variable.
+          </li>
+
+        </ol>
+
+
+        <h3>Using Conditional Logic</h3>
+
+        <ul>
+          <li>          
+              <strong><u>Conditionals</u></strong> - Code structures used to test if an expression returns true or not.
+          </li>
+          <li>
+            <u>If Statements</u> - a way of introducing decision-making into our code. Just like its name sounds, when using the "if" statement, code will only execute if the statement meets a condition, or is true.
+
+            <br><br>
+
+            <u>Creating an "if" Statement:</u>
+
+
+            <div class="commands">            
+              if (condition){
+                <br>
+              // block of code to be executed if condition is truthy
+                <br>
+              }
+            </div>
+
+            When the computer encounters an "if" statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do the action we ask it to do between the curly brackets. If the condition isn't true or has a value that isn't truthy, then the computer will ignore whatever is in between the curly brackets and move on.  Using conditional statements such as "if" statements allows us to interrupt control flow. 
+          </li>
+
+          <li>
+
+              <u>"else if" and "else" Statements</u> - Provides an if statement with more than one condition.  
+              <br><br>
+              Here are a couple examples: 
+
+            <div class="commands">            
+              if (condition){
+                <br><br>
+              // block of code to be executed if condition is truthy
+                <br><br>
+              } else if (condition){
+                <br><br>
+              // block of code to be executed if first condition is falsy and this condition is truthy
+                <br><br>
+              } else {
+                <br><br>
+              // block of code to be executed if none of the conditions are truthy
+                <br><br>
+              }
+            </div>
+
+            <div class="commands">
+              let dinner = "tacos";
+                <br><br>
+              if (dinner === "tacos"){
+                <br><br>
+                &nbsp;&nbsp;alert("Yay, I lOVE TACOS!");
+                <br><br>
+              } else {
+                <br><br>
+                &nbsp;&nbsp;alert("Awww, but tacos are my favorite...");
+                <br><br>
+              }
+            </div>
+
+          </li>
+
+          <div class="notes">
+            <p>
+              <strong>NOTE:</strong> we use '===', the strict equality operator, to check to see if two values are equal, and return a Boolean result, true, if the values are equal, and false, if the values are not equal.
+            </p>
+          </div>
+        </ul>
+
+        <h3>Using Arrays and Loops</h3>
+
+        <ul>
+          <li>
+            <strong><u>Arrays</u></strong> - A single variable used to hold a group of data that is typically related in some way.  To create an array, declare a variable like we have before, but instead of assigning the variable to a single value, assign it to a group of values between square brackets [].
+            <br><br>
+
+            <div class="commands">
+              let myArray = ['apple','cherry','banana'];
+            </div>
+
+            <br>
+
+            To work with individual data items inside an array, we need the location of the data item in the array. Using each piece of data's index, or location number, we can access individual data inside the array. 
+            <br><br>
+            In JavaScipt, arrays are zero-indexed and sequential.  This means that the first item in myArray above, 'apple', has an index of 0.  Because the indices are sequential (increasing by 1), 'cherry' then has an index of 1, and 'banana' 2. 
+            <br><br>
+            As an example, we can log 'banana' in our console with the following code:
+            <br><br>
+            <div class="commands">
+              let myArray = ['apple','cherry','banana'];
+              <br><br>
+              console.log(myArray[2]);
+            </div> 
+
+            <br><br>
+            <div class="notes">
+              <p>
+                <strong>NOTE:</strong> A single array can store different types of data, such as strings, numbers, and so on.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <strong><u>The for Loop</u></strong> Uses the predictable pattern of indices to perform a task on all the items in an array by allowing a block of code to be executed over and over. 
+            <br><br>
+            A for loop contains the following three important statements, in order:
+            <br><br>
+            <ol>
+              <li>
+                <strong>Determine the starting point of our loop.</strong> Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0).
+              </li>
+              <li>
+                <strong>Set the condition.</strong> As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. Written out:
+                <div class="commands">
+                  x &lt; myArray.length;
+                </div>
+              </li>
+              <li>
+                <strong>Indicate the iteration</strong> Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1
+              </li>
+            </ol>
+
+            Therefore, to write for loops, your code should look like this:
+
+            <div class="commands">
+              for(let x = 0; x &lt; myArray.length; x++){
+                <br><br>
+                // code block to execute;
+                <br><br>
+              }
+            </div>
+          </li>
+        </ul>
+
+
+        <h3>Writing and Calling Functions</h3>
+
+        <ul>
+          <li>
+            <strong><u>Functions</u></strong> - A powerful core component of many programming languages — not just JavaScript — that allows developers to reuse code to perform certain tasks. It's important to remember that functions don't automatically run when the page is loaded. In order for them to work, you must call them within the code. 
+          </li>
+          <li>
+            <strong><u>Write a function</u></strong> - Begin by typing 'function', a function name, parentheses (to define parameters), and squiggly brackets {to encapsulate blocks of code}.  Remember that even if we don't define parameters, it's important to always include the parentheses. 
+            <br><br>
+            Here's an example of a function to log the string, "Hello, world!" in the console:
+
+            <div class="commands">
+              function helloWorld ( ) {
+                <br><br>
+                &nbsp;&nbsp;console.log("Hello, world!")
+                <br><br>
+              }
+            </div>
+          </li>
+          <li>
+            <strong><u>Calling the function</u></strong> - Now, just because the function above was created, doesn't mean it'll run the code inside. In order to use the code in the function, we must call it by typing the function name, parentheses, and semi-colon. 
+            
+
+            <div class="commands">
+              helloWorld ( );
+            </div>
+
+            <br>
+
+            <span>Don't forget: since control flow dictates that Javascript files are executed from top to bottom, where you call your functions matters!</span>
+
+          </li>
+        </ul>
+
       </section>
 
-      <br>
 
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>✨🥳 I can code! 🥳✨</p>
     </footer>
 
     <script src="assets/script.js"></script>
