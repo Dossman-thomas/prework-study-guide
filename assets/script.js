@@ -29,7 +29,3 @@ listTopics();
 console.log('Which topic should we study first?');
 
 selectTopic();
-
-// let myArray = ['apple','cherry','banana'];
-
-// console.log(myArray[2]);
